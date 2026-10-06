@@ -4,6 +4,8 @@ created: 2026-09-18
 tags: [component, export]
 module: src/core/export.py
 status: planned
+depends_on: ["[[Сховище даних]]"]
+implements: ["[[Експорт даних]]"]
 ---
 # CSV-експортер
 

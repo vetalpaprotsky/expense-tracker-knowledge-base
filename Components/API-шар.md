@@ -6,6 +6,9 @@ tags: [component, api]
 module: src/api/main.py
 status: implemented
 source: git:50682ec
+depends_on: ["[[Валідація даних]]", "[[Сховище даних]]", "[[Модуль звітності]]"]
+implements: ["[[Витрата]]"]
+decided_by: ["[[ADR-001 Вибір FastAPI]]"]
 ---
 # API-шар
 

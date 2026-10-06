@@ -2,6 +2,8 @@
 type: concept
 created: {{date}}
 tags: [domain]
+part_of: []
+decided_by: []
 ---
 # {{title}}
 

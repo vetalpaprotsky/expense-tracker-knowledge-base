@@ -17,3 +17,8 @@
 3. Додаткові поля: component — `module`, `status`; decision — `status`, `date`; glossary — `aliases`.
 4. Зв'язки лише через `[[wiki-посилання]]`, а не просте згадування.
 5. Кожна нотатка має бути досяжна з `MOC-Застосунок`.
+
+## Типізовані зв'язки (ПР4)
+Поля frontmatter зі списком `"[[Назва]]"`: `depends_on` (component→component), `implements` (component→concept),
+`part_of` (concept→concept), `decided_by` (component|concept→decision), `supersedes` (decision→decision).
+Опис — нотатка [[Онтологія застосунку]]; перевірка — `python3 scripts/check_vault.py`.
